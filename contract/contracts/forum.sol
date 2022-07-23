@@ -21,7 +21,6 @@ contract forum {
         uint256 themeColor;
         bool exists;
     }
-
     mapping(uint256 => Post) public posts;
     mapping(address => User) public users;
 
